@@ -1,5 +1,5 @@
 # Smart-CCS: Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation  
-[![Python Version](https://img.shields.io/badge/Python-3.9.0-green.svg)](https://www.python.org/)  [![License](https://opensource.org/license/apache-2-0)](LICENSE) 
+[![Python Version](https://img.shields.io/badge/Python-3.9.0-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 
 This is the official repository of  
@@ -19,11 +19,14 @@ by _Hao Jiang, Cheng Jin, Huangjing Lin, Yanning Zhou, Xi Wang, Jiabo Ma, Li Din
 1. **Clone the repository**  
 ```bash
 git clone https://github.com/hjiangaz/Smart-CCS
+```
 
 2. **Install the liabarary**  
 ```bash
 cd main
 pip install -r requirements.txt
-
+```
 3. **Download pretrained weights**
+```bash
 
+```
