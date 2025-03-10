@@ -5,8 +5,8 @@
              width="300"
              style="pointer-events: none;"> <!-- 允许点击穿透 -->
     </div>
-    
-    <!-- Smart-CCS -->
+    <p>Smart-CCS</p>
+
 </div>
 
 ## Smart-CCS
