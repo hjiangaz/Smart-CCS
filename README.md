@@ -1,4 +1,10 @@
-![Logo](https://github.com/hjiangaz/Smart-CCS/blob/master/docs/smart-ccs_log2.jpg)
+<img 
+  src="https://github.com/hjiangaz/Smart-CCS/blob/master/docs/smart-ccs_log2.jpg" 
+  alt="Smart-CCS Logo" 
+  width="200" 
+  align="right"
+  style="margin: 10px;"
+>
 # Smart-CCS 
 [![arXiv](https://img.shields.io/badge/arXiv-2502.09662-%23B31B1B.svg)](https://www.arxiv.org/abs/2502.09662) [![Python Version](https://img.shields.io/badge/Python-3.9.0-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Demo Video](https://img.shields.io/badge/Demo-Video-%23FF0000.svg)](https://www.youtube.com)
 
