@@ -1,5 +1,4 @@
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <h1 style="margin: 0;">Smart-CCS</h1>
     <img src="https://github.com/hjiangaz/Smart-CCS/blob/master/docs/smart-ccs_log2.jpg" alt="Logo" width="300" />
 </div>
 
