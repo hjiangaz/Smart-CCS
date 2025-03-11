@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Media\logos\smart-ccs_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="Media\logos\smart-ccs_light.svg">
-  <img alt="Smart-CCS Logo" src="Media\logos\smart-ccs_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="Media\logos\smart-ccs_dark.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="Media\logos\smart-ccs_light.jpg">
+  <img alt="Smart-CCS Logo" src="Media\logos\smart-ccs_light.jpg">
 </picture>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2502.09662-%23B31B1B.svg)](https://www.arxiv.org/abs/2502.09662) [![Python Version](https://img.shields.io/badge/Python-3.9.0-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Demo Video](https://img.shields.io/badge/Demo-Video-%23FF0000.svg)](https://www.youtube.com)
