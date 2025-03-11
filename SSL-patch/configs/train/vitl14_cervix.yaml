@@ -1,0 +1,34 @@
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  OFFICIAL_EPOCH_LENGTH: 1250
+  num_workers: 8
+  batch_size_per_gpu: 64
+  dataset_path: RecursiveImageDatasetNas:root=/path/to/patch_path.pkl
+  centering: sinkhorn_knopp
+student:
+  arch: vit_large
+  patch_size: 14
+  drop_path_rate: 0.4
+  ffn_layer: mlp
+  block_chunks: 4
+  pretrained_weights: /path/to/dinov2_vitl14_pretrain_224_unblock.pth
+teacher:
+  momentum_teacher: 0.994
+optim:
+  epochs: 100
+  weight_decay_end: 0.2
+  base_lr: 0.0001 # learning rate for a batch size of 1024
+  warmup_epochs: 10
+  layerwise_decay: 1.0
+crops:
+  local_crops_size: 98
+  local_crops_scale:
+    - 0.02
+    - 0.32
+evaluation:
+  eval_period_iterations: 12500
