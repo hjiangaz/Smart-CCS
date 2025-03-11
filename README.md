@@ -1,9 +1,10 @@
-![Logo](https://github.com/hjiangaz/Smart-CCS/blob/master/docs/smart-ccs_log2.jpg)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Media\logos\smart-ccs_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="Media\logos\smart-ccs_light.svg">
+  <img alt="Smart-CCS Logo" src="Media\logos\smart-ccs_light.svg">
+</picture>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2502.09662-%23B31B1B.svg)](https://www.arxiv.org/abs/2502.09662) [![Python Version](https://img.shields.io/badge/Python-3.9.0-green.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) [![Demo Video](https://img.shields.io/badge/Demo-Video-%23FF0000.svg)](https://www.youtube.com)
-
-
 
 This is the official repository of  
 **Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation**  
@@ -14,32 +15,42 @@ by _Hao Jiang, Cheng Jin, Huangjing Lin, Yanning Zhou, Xi Wang, Jiabo Ma, Li Din
 ## Installation
 
 ### Requirements
+
 - **Python 3.9.0**
 - CUDA 12.2
 - PyTorch 2.0.0
 
 ### Setup Instructions
-1. **Clone the repository**  
+
+1. **Clone the repository**
+
 ```bash
 git clone https://github.com/hjiangaz/Smart-CCS
 ```
 
-2. **Install the liabarary**  
+2. **Install the liabarary**
+
 ```bash
 cd main
 pip install -r requirements.txt
 ```
+
 3. **Download pretrained weights**
+
 ```bash
 
 ```
+
 ### QuickStart
 
 ### License
+
 This project is covered under the Apache 2.0 License.
 
 ### Citation
+
 If you find this work useful, please cite:
+
 ```bash
 @article{jiang2025generalizable,
   title={Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation},

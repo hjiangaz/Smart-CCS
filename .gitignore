@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Code quality
+
+.prettierrc.js
+.eslintrc
+
+# Node
+node_modules/
+package-lock.json
+package.json
