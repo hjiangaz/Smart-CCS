@@ -31,18 +31,29 @@ git clone https://github.com/hjiangaz/Smart-CCS
 2. **Install the liabarary**
 
 ```bash
-cd main
+cd subfolders
 pip install -r requirements.txt
 ```
 
 3. **Download pretrained weights**
 
-```bash
-
-```
+download pretrained models,including feature extractor, detector, and classifier
 
 ### QuickStart
 
+1. **Cell-level Screening**
+
+```bash
+cd Det-cell
+sh ./configs/extract.sh
+```
+
+2. **WSI-level Screening**
+
+```bash
+cd Cls-WSI
+sh ./scripts/test.sh
+```
 ### License
 
 This project is covered under the Apache 2.0 License.
