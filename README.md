@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 3. **Download pretrained weights**
 
-Download ![pretrained models](https://drive.google.com/drive/folders/1KbYIU5AjbTG8kIG-CjLM5aftvQtkgib3?usp=sharing), including feature extractor, detector, and classifier
+Download [pretrained models](https://drive.google.com/drive/folders/1KbYIU5AjbTG8kIG-CjLM5aftvQtkgib3?usp=sharing), including feature extractor, detector, and classifier
 
 ### QuickStart
 
