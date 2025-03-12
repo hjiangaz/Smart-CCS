@@ -1,0 +1,31 @@
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  batch_size_per_gpu: 8 #32
+  dataset_path: RecursiveImageDatasetNas:root=/jhcnas3/Cervical/CervicalData_OLD/jh/jh/SSL/data/train_all_unlabeld_sample0.2_new.pkl
+  # dataset_path: RecursiveImageDataset:root=/jhcnas3/Cervical/CervicalData_OLD/jh/jh/pretrain/data/ABN0001006
+  centering: sinkhorn_knopp
+student:
+  arch: vit_large
+  patch_size: 14
+  drop_path_rate: 0.4
+  ffn_layer: mlp
+  block_chunks: 4
+  pretrained_weights: /jhcnas3/Pathology/share_code/dinov2_vitl14_pretrain_224_unblock.pth
+teacher:
+  momentum_teacher: 0.994
+optim:
+  epochs: 2000
+  weight_decay_end: 0.2
+  base_lr: 0.002  # learning rate for a batch size of 1024
+  warmup_epochs: 10 #80
+  layerwise_decay: 1.0
+crops:
+  local_crops_size: 98
+  local_crops_scale:
+  - 0.02
+  - 0.32
