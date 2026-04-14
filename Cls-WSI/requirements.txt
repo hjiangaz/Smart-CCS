@@ -1,4 +1,12 @@
+# Core deep learning (assumed pre-installed with CUDA):
+#   torch>=1.13.0
+#   torchvision>=0.14.0
+
 scipy
 opencv-python
 scikit-learn
 matplotlib
+PyYAML>=6.0           
+openpyxl>=3.0.10    
+pandas>=1.5.0         
+tqdm>=4.64.0          

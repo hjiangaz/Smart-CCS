@@ -29,7 +29,7 @@ logger = logging.getLogger("dinov2")
 
 def get_args_parser(add_help: bool = True):
     parser = argparse.ArgumentParser("DINOv2 training", add_help=add_help)
-    parser.add_argument("--config-file", default="/home/jh/CLS/dinov2/dinov2/configs/train/vitl14_cervix_v2.yaml", metavar="FILE", help="path to config file")
+    parser.add_argument("--config-file", default="configs/train/vitl14_cervix_v2.yaml", metavar="FILE", help="path to config file")
     parser.add_argument(
         "--no-resume",
         action="store_true",
@@ -50,7 +50,7 @@ For python-based LazyConfig, use "path.key=value".
     parser.add_argument(
         "--output-dir",
         "--output_dir",
-        default="/jhcnas3/Cervical/CervicalData_OLD/jh/jh/pretrain/dino/v3",
+        default="path/to/output",
         type=str,
         help="Output directory to save logs and checkpoints",
     )

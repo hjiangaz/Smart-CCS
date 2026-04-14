@@ -28,8 +28,11 @@ class CCS_JSON_TOP(Dataset):
         self.selection_K = selection_K
 
         # Select the appropriate label file based on the mode
+        
         label_file = self._get_label_file(mode, train_set, test_set, val_set, infer_set)
         # Load the slide paths from the label file
+
+
         with open(label_file, encoding='utf-8') as f:
             self.total_slides = f.readlines()
 

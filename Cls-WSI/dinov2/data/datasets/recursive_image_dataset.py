@@ -10,7 +10,7 @@ from dinov2.data.datasets.extended import ExtendedVisionDataset
 
 class RecursiveImageDatasetNas(ExtendedVisionDataset):
     def __init__(self,
-                #  root_common: "/jhcnas1/jincheng/cervical/patches/",
+                #  root_common: "path/to/patches/",
                  root: str,
                  verify_images: bool = False,
                  transforms: Optional[Callable] = None,
@@ -19,9 +19,9 @@ class RecursiveImageDatasetNas(ExtendedVisionDataset):
 
         super().__init__(root, transforms, transform, target_transform)
         self.nas = {
-            1: "/jhcnas1/jincheng/cervical/patches/",
-            2: "/jhcnas2/home/jincheng/cervical/patches/",
-            3: "/jhcnas3/Cervical/CervicalData_NEW/Processed_Data/PATCH_DATA/Patch_1200_All/patches/"
+            1: "path/to/patches/",
+            2: "path/to/patches/",
+            3: "path/to/patches/"
         }
         with open(root, 'rb') as f:
             data = pickle.load(f)
@@ -74,7 +74,7 @@ class RecursiveImageDatasetNas(ExtendedVisionDataset):
 
 class RecursiveImageDataset(ExtendedVisionDataset):
     def __init__(self,
-                #  root_common: "/jhcnas1/jincheng/cervical/patches/",
+                #  root_common: "path/to/patches/",
                  root: str,
                  verify_images: bool = False,
                  transforms: Optional[Callable] = None,
@@ -82,7 +82,7 @@ class RecursiveImageDataset(ExtendedVisionDataset):
                  target_transform: Optional[Callable] = None) -> None:
 
         super().__init__(root, transforms, transform, target_transform)
-        self._root_common =  "/jhcnas1/jincheng/cervical/patches/"
+        self._root_common = "path/to/patches/"
         self.root = Path(root).expanduser()
         image_paths = get_image_files(self.root)
         invalid_images = set()

@@ -1,0 +1,35 @@
+backbone_model: CCS
+classifier: MeanMIL
+
+# Pretrained checkpoints (same as test.sh defaults)
+checkpoint:      path/to/CCS_vitL_100M.pth
+classifier_ckpt: path/to/MeanMIL.pth
+
+n_classes:   7        
+in_dim:      1024     
+selection_K: 100      
+dropout:     ~        
+act:         relu
+
+dataset: CCS_JSON_TOP
+
+# Path 
+infer_set: path/to/test_set.txt
+retro_set: path/to/bank_set.txt
+
+# Output folder for inference results
+output_folder: path/to/output
+
+test_batch_size: 16   
+
+temperature:   0.1    
+ema_momentum:  0.999  
+proj_dim:      128    
+tta_lr:        1.0e-5
+
+top_w: 100
+
+memory_bank_path: path/to/proto_bank.pth
+
+seed:           2020
+only_screening: true  
