@@ -10,6 +10,8 @@ This is the official repository of
 **Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation**  
 by _Hao Jiang, Cheng Jin, Huangjing Lin, Yanning Zhou, Xi Wang, Jiabo Ma, Li Ding, Jun Hou, Runsheng Liu, Zhizhong Chai, Luyang Luo, Huijuan Shi, Yinling Qian, Qiong Wang, Changzhong Li, Anjia Han, Ronald Chan, Hao Chen_
 
+[Abstract Graphic](Media/Smar-CCS-abstract-graphics.pdf)
+
 ---
 
 ## Installation
@@ -70,3 +72,13 @@ If you find this work useful, please cite:
   year={2025}
 }
 ```
+
+### Acknowledgment
+
+- The code of Smart-CCS is built on [GPFM](https://github.com/birkhoffkiki/GPFM/tree/master) and [CLAM](https://github.com/mahmoodlab/clam), many thanks for the third-party libraries.
+- We recommend using our WSI reading toolkit [ASlide](https://github.com/MrPeterJin/ASlide), supporting various formats such as SPDC and KFB.
+- For more AI medical research, please visit [SmartX Lab](https://smartx.cse.ust.hk/).
+
+### Question
+
+If you have any question, feel free to email Hao JIANG (csjianghao@gmail.com) and Cheng JIN (petergamsing@gmail.com).
