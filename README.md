@@ -10,7 +10,9 @@ This is the official repository of
 **Generalizable Cervical Cancer Screening via Large-scale Pretraining and Test-Time Adaptation**  
 by _Hao Jiang, Cheng Jin, Huangjing Lin, Yanning Zhou, Xi Wang, Jiabo Ma, Li Ding, Jun Hou, Runsheng Liu, Zhizhong Chai, Luyang Luo, Huijuan Shi, Yinling Qian, Qiong Wang, Changzhong Li, Anjia Han, Ronald Chan, Hao Chen_
 
-[Abstract Graphic](Media/Smar-CCS-abstract-graphics.pdf)
+<picture>
+  <img alt="Smart-CCS Logo" src="Media\Smart-CCS-abstract-graphics.png">
+</picture>
 
 ---
 
